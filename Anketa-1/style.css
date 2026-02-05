@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+input, button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.profile {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 150px;
+    display: block;
+    margin-bottom: 10px;
+}
