@@ -23,14 +23,7 @@ $stmt = mysqli_prepare(
     VALUES (?, ?, ?, ?, 'Черновик', NOW())"
 );
 
-mysqli_stmt_bind_param(
-    $stmt,
-    "ssss",
-    $title,
-    $author,
-    $responsible,
-    $description
-);
+mysqli_stmt_bind_param($stmt, "ssss", $title, $author, $responsible, $description);
 
 if (mysqli_stmt_execute($stmt)) {
     header("Location: index.php?success=1");
