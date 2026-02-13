@@ -1,0 +1,81 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #fdfbff, #e6f2ff);
+    padding: 20px;
+    max-width: 850px;
+    margin: 0 auto;
+    color: #444;
+}
+
+h1, h2 {
+    color: #5a6ea8;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 12px;
+    padding: 10px;
+    width: 100%;
+    max-width: 420px;
+    border: 1px solid #dbe7ff;
+    border-radius: 8px;
+    background: #ffffff;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #ffb6d9;
+    box-shadow: 0 0 0 2px rgba(255,182,217,0.2);
+}
+
+button {
+    padding: 9px 14px;
+    margin: 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ffb6d9, #a7d8ff);
+    color: #ffffff;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+button:hover {
+    transform: translateY(-1px);
+    opacity: 0.95;
+}
+
+.card {
+    background: #ffffff;
+    padding: 18px;
+    margin-bottom: 16px;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.07);
+    border-left: 5px solid #a7d8ff;
+    transition: transform 0.15s ease;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.success {
+    background: #e8f9f1;
+    color: #2e7d5b;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border-left: 4px solid #8de0c1;
+}
+
+.error {
+    background: #ffe8f0;
+    color: #a84560;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border-left: 4px solid #ffb6d9;
+}
