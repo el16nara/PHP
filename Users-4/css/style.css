@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #3399ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #66b3ff;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #3399ff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.profile {
+    width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.profile img {
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 4px;
+}
+
+.profile p {
+    margin: 6px 0;
+    font-size: 14px;
+}
